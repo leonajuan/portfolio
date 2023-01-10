@@ -4,6 +4,7 @@ import Header from './components/Header';
 import NavBar from './components/NavBar';
 import About from './components/About';
 import Contact from './components/Contact';
+import Resume from './components/Resume';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <div className='App'>
           <Switch>
             <Route path='/resume'>
+              <Resume />
             </Route>
             <Route path='/contact'>
               <Contact />
