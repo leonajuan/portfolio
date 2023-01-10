@@ -2,9 +2,11 @@ function NavBar() {
   return (
     <div>
       <nav>
-        <li> <a href='/'>Home</a></li>
-        <li><a href='/resume'>Resume</a></li>
-        <li><a href='/contact'>Contact</a></li>
+        <ul className='navbar'>
+          <li className='nav-item'><a href='/'>Home</a></li>
+          <li className='nav-item'><a href='/resume'>Resume</a></li>
+          <li className='nav-item'><a href='/contact'>Contact</a></li>
+        </ul>
       </nav>
     </div>
   )
