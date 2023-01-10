@@ -2,6 +2,16 @@
   background-color: #f2e9e4;
 }
 
+.header {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.subheader {
+  font-weight: 300;
+  text-align: center;
+}
+
 .about-icons {
   width: 5%;
   padding: 0 10px 0 10px;
