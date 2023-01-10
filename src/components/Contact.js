@@ -1,10 +1,18 @@
 function Contact() {
   return (
     <div>
-      <h1>Email</h1>
-      <a href='mailto:leonacjuan@gmail.com'>
-        <img className='about-icons' src='https://cdn-icons-png.flaticon.com/512/561/561188.png' alt='Email' />
-      </a>
+      <form className='contact-form'>
+        <h4>Get In Touch With Me!</h4>
+        <label htmlFor='firstName'>First Name</label>
+        <input className='form-input' type='text' name='firstName' />
+        <label htmlFor='lastName'>Last Name</label>
+        <input className='form-input' type='text' name='lastName' />
+        <label htmlFor='email'>Email</label>
+        <input className='form-input' type='text' name='email' />
+        <label htmlFor='message'>Message</label>
+        <input className='form-input' type='text' name='message' />
+        <button>Submit</button>
+      </form>
     </div>
   )
 }

@@ -3,7 +3,7 @@ import resume from './resume.jpg';
 function Resume() {
   return (
     <div>
-      <img src={resume} alt='Leona Juan Resume' />
+      <img className='resume' src={resume} alt='Leona Juan Resume' />
     </div>
   )
 }
