@@ -14,13 +14,13 @@ function About() {
 
         <p>I graduted from Rutgers University-New Brunswick in 2019 and interests outside of coding include cuddling with my two cats, making Spotify playlists and trying new recipes!</p>
 
-        <a href='https://www.linkedin.com/in/leona-cjuan/' target='_blank'>
+        <a href='https://www.linkedin.com/in/leona-cjuan/' target='_blank' rel="noreferrer">
           <img className='about-icons' src='https://www.edigitalagency.com.au/wp-content/uploads/new-linkedin-logo-white-black-png.png' alt='LinkedIn logo' />
         </a>
         <a href='mailto:leonacjuan@gmail.com'>
           <img className='about-icons' src='https://cdn-icons-png.flaticon.com/512/561/561188.png' alt='Email' />
         </a>
-        <a href='https://github.com/leonajuan' target='_blank'>
+        <a href='https://github.com/leonajuan' target='_blank' rel="noreferrer">
           <img className='about-icons' src='https://cdn-icons-png.flaticon.com/512/25/25231.png' alt='GitHub logo' />
         </a>
       </div>

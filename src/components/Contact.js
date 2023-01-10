@@ -11,7 +11,7 @@ function Contact() {
         <input className='form-input' type='text' name='email' />
         <label htmlFor='message'>Message</label>
         <input className='form-input' type='text' name='message' />
-        <button>Submit</button>
+        <button className='submit-button'>Submit</button>
       </form>
     </div>
   )
