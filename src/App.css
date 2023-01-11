@@ -1,5 +1,5 @@
 * {
-  background-color: #faecf0;
+  background-color: #fbf2f5;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -16,7 +16,7 @@
   font-weight: 200;
   text-align: center;
   margin-top: 0;
-  font-size: 13px;
+  font-size: 13px; 
   line-height: 0;
 }
 
@@ -67,8 +67,6 @@
   margin-left: 10px;
 }
 
-
-
 .resume {
   display: block;
   margin: 15px auto 15px auto;
@@ -86,6 +84,22 @@
   border-radius: 4px;
   box-sizing: border-box;
   display: block;
+  width: 300px;
+  margin-bottom: 10px;
+  border: solid black 1px;
+}
+
+label {
+  margin-left: 10px;
+}
+
+.submit-button {
+  margin-left: 10px;
+  width: 120px;
+  background: black;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 a {
