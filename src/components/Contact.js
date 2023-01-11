@@ -15,6 +15,7 @@ export const ContactUs = () => {
       }, (error) => {
         console.log(error.text);
       });
+    form.current.reset()
   };
 
   return (
