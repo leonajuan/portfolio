@@ -1,6 +1,7 @@
 * {
   background-color: #fbf2f5;
   font-family: 'Poppins', sans-serif;
+  /* border: solid red 1px; */
 }
 
 .header {
@@ -35,8 +36,8 @@
   text-decoration: underline wavy black;
 }
 
-.photo-div {
-  display: block;
+.photo-div img {
+  width: 25rem;
 }
 
 .about-div {
@@ -44,6 +45,7 @@
   float: left;
   max-width: 400px;
   margin-left: 30px;
+  /* border: solid red 2px; */
 }
 
 .about-div p {
@@ -68,13 +70,6 @@
   opacity: .5;
 }
 
-.profile-photo {
-  width: 25%;
-  display: block;
-  border-radius: 3px;
-  float: left;
-  margin-left: 10px;
-}
 
 .resume {
   display: block;
@@ -113,4 +108,17 @@ label {
 
 a {
   cursor: pointer;
+}
+
+.resume {
+  box-shadow: 0 1px 2px 0 rgb(60 64 67 / 15%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+}
+
+.homepage-div {
+  border: red solid 1px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

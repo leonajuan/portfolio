@@ -12,19 +12,17 @@ function App() {
       <Header />
       <NavBar />
       <BrowserRouter>
-        <div className='App'>
-          <Switch>
-            <Route path='/resume'>
-              <Resume />
-            </Route>
-            <Route path='/contact'>
-              <Contact />
-            </Route>
-            <Route path='/'>
-              <About />
-            </Route>
-          </Switch>
-        </div>
+        <Switch>
+          <Route path='/resume'>
+            <Resume />
+          </Route>
+          <Route path='/contact'>
+            <Contact />
+          </Route>
+          <Route path='/'>
+            <About />
+          </Route>
+        </Switch>
       </BrowserRouter>
     </>
   );
