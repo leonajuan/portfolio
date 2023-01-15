@@ -1,7 +1,6 @@
 * {
   background-color: #fbf2f5;
   font-family: 'Poppins', sans-serif;
-  /* border: solid red 1px; */
 }
 
 .header {
@@ -27,6 +26,14 @@
   padding-left: 0;
   padding-right: 50px;
 }
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
 .nav-item a {
   color: black;
   text-decoration: none;
@@ -45,7 +52,6 @@
   float: left;
   max-width: 400px;
   margin-left: 30px;
-  /* border: solid red 2px; */
 }
 
 .about-div p {
@@ -115,8 +121,7 @@ a {
 }
 
 .homepage-div {
-  border: red solid 1px;
-  height: 100vh;
+  height: 80vh;
   width: 100vw;
   display: flex;
   justify-content: center;
